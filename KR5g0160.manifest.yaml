@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5g0160/v1
+canonical_location: https://kanripo.org/bkk/KR5g0160/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 洞真太上飛行羽經九真昇玄上記
+  identifiers:
+    alt_id:
+    - DZ1351
+  date: '2015-08-29 02:58:44.948536'
+  source:
+    repository: kanripo
+    path: KR5g0160
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0160_000.yaml, hash: 'sha256:bb5b75300bd76ae067979740dba76b0d800500134edb3c508e5e5eebd409e220'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0160_000.markers.yaml, hash: 'sha256:c1901186b58517a26aa19dfcdc6ef73fe0a931e7c6bb677e8e1696984d45f384'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0160_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3908
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:cefd48159de3b7efb69b7ca0c79d9f256b6b9f336661866f7f6a2f7a326a7363
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
